@@ -1,0 +1,155 @@
+i .fa-heart{
+  background-color: red;
+}
+#image2{
+border-radius:20px 20px 20px 20px;
+  height: 100%;
+
+  transition: all 1s ease-in-out;
+  width:100%;
+z-index: 0;
+}
+#text4{
+  text-align: center;
+  padding:5px;
+background-color: rgba(0,0,0,0.2);
+color: white;
+width: 45%;
+margin-left: 29%;
+height: auto;
+transition: all 0.5s;
+position: absolute;
+top:110%;
+z-index: 1;
+font-size: 30px;
+font-family: serif;
+font-style: bold;
+
+
+}
+
+.like{
+  width: 70px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: green;
+  color:white;
+  font-family: sans-serif;
+  text-align: center;
+  transition: all 0.3s linear;
+  position: absolute;
+  top:300px;
+  left: 270px;
+
+}
+.like:hover{
+  cursor: pointer;
+  width: 75px;
+
+}
+#likes{
+  position: absolute;
+  top:300px;
+  width: auto;
+background-color: rgba(0,0,0,0.3);
+
+padding-top: 3px;
+padding-right: 4px;
+margin-left: 10px;
+border-radius: 5px;
+color: white;
+
+}
+i{
+  padding-top: 15px;
+}
+#box2{
+background-image: linear-gradient(to bottom right , black, white);
+border-radius:20px 20px 20px 20px;
+height: 350px;
+filter: drop-shadow(0 6px 4px black);
+position: relative;
+overflow: hidden;
+}
+#text{
+  color: white;
+  padding-left: 15px;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+#likes{
+  padding-left: 15px;
+}
+#post{
+  width: 300px;
+}
+#post i{
+  padding-left: 160px;
+  padding-top: 80px;
+  font-size: 30px;
+  color: white;
+
+}
+#post .button{
+  background: green;
+  width: 80px;
+  height: 40px;
+  border-radius: 25px;
+  border: 2px solid white;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  padding-top: 10px;
+  position: absolute;
+  top: 50px;
+  left: 570px;
+  filter:drop-shadow(0px 5px 10px black);
+
+}
+#image2:hover{
+  filter: blur(3px);
+
+
+}
+#image2:hover + #text4,#text4:hover{
+
+  position: absolute;
+  top:40%;
+
+
+
+}
+
+
+#file{
+  display: none;
+  margin-left: 160px;
+}
+#lod{
+  border-radius: 30px;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+#prof{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+#tex{
+  margin-top: 4px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: blue;
+}
+i,#button{
+  cursor: pointer;
+}
+@media only screen and (max-width:700px){
+  #post .button{
+    left: 70%;
+  }
+  #tag{
+    margin-left: -39%;
+  }
+}

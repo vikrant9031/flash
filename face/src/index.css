@@ -1,0 +1,265 @@
+body{
+background: url("./pexels-photo-66997.jpeg");
+background-size: cover;
+
+
+
+
+
+}
+.nav{
+
+}
+#form{
+
+}
+.particle{
+  	position: fixed;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	bottom: 0px;
+z-index: -1;
+
+}
+
+
+#grass{
+  background: url('./file/image/house.jpeg');
+
+  background-position: top;
+}
+#container{
+  width: 100%;
+background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+
+  height: 700px;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+z-index:  -2;
+
+
+}
+#tag{
+  margin-top: -10px;
+
+}
+.item1{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.wood{
+   background:transparent;
+  width: 800px;
+
+padding-left: 600px;
+height: 100%;
+box-shadow: 2px 2px 0 0 white;
+}
+.bar{
+  background-image: linear-gradient(to top left ,blue,purple,gray);
+  position: fixed;
+  width: 33.3em;
+left:250px;
+
+box-shadow: 0 2px 8px 0px black;
+border-bottom: gray;
+height: 50px;
+
+}
+.bar div{
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 130px;
+padding-left: 10px;
+  padding-top: 15px;
+
+  padding-right: 30px;
+  width: 80px;
+  padding-bottom: 5px;
+  z-index: 1000
+}
+.text{
+  margin-top: 300px;
+  margin-left: -320px;
+}
+#article{
+  background:linear-gradient(to top white, #B8860B ,,black);
+  box-shadow: 0px 3px 10px 0px black;
+  z-index: -3;
+
+    position:fixed;left:250px;top:0px;
+
+
+}
+#box1{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+#ring{
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  top:190px;
+  left: 290px;
+  border: 2px solid white;
+  transform: rotate(139deg);
+  animation: change 5s infinite;
+  animation-timing-function:linear;
+  animation-delay: 2s;
+  box-shadow: 0px 3px 3px 0px black;
+
+}
+#image3{
+  border-radius: 90px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 2px 3px 3px black;
+
+  position:absolute;
+  top:200;
+  left:300;
+}
+
+#container .prop{
+  box-shadow: 0 2px 7px 0px black;
+}
+
+@keyframes change {
+    0%   {background-image: radial-gradient(brown, yellow, blue);
+    opacity: 0.8;
+
+}
+
+    50%  {background-image: radial-gradient(gold, red, green);
+    opacity:0.5;
+}
+
+    100% {
+      background-image: radial-gradient(green, white, purple);
+opacity: 0.3;
+
+}
+
+    }
+
+
+
+
+.item{
+  width: 350px;
+  height: 400px;
+  background:transparent;
+margin-bottom: 40px;
+
+border-radius: 30px;
+  z-index: 2000;
+
+transition: all 1s;
+margin-top: 30px;
+margin-left: 230px;
+}
+#box{
+  position: fixed;
+  top: 50px;
+  left: 250px;
+background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+height:100%;
+  overflow: scroll;
+  width:800px ;
+  z-index:1000
+
+}
+#mainImage{
+  width: 100%;
+}
+.item:hover{
+  transform: scale(1.1);
+}
+#comment{
+  left: 20%;
+  position: absolute;
+  top: 10px;
+/*
+position: fixe
+left: 455px;
+top: 70px;
+*/
+}
+
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    #box{
+
+
+      left: 0px;
+
+      width: 100%;
+    }
+    #box1{
+    margin-left: -20px;
+    width:
+    }
+    #comment{
+
+      left: 10%;
+
+      width: 80%;
+    }
+    #container{
+
+      width: 100%;
+    }
+    #article{
+      left: 0px;
+
+    }
+    .item{
+      margin-left: auto;
+      width: 300px;
+      height: 300px;
+
+    }
+    #box2{
+      margin-left: 13%;
+    }
+    .bar{
+    width: 100%;
+
+    left: 0px;
+    }
+    .bar div{
+      width: 30px;
+      font-size: 1.2rem;
+      margin-left: 15%;
+      margin-right: 20px;
+    }
+
+}
+
+/*.nav{
+  width: 100%;
+  height: 50px;
+}
+.nav .SignIn{
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  font-size: 20px;
+}
+.nav .SignUp{
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  font-size: 20px;
+  margin-left: 200px;
+}*/

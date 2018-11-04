@@ -1,0 +1,11 @@
+<span className="icons">
+<i className="fa fa-heart"
+style={{"color":"red","fontSize":30,"marginLeft":5}}></i>
+<i className="fa fa-comments-o"
+style={{"color":"blue","fontSize":30,"marginLeft":15}}></i>
+<i className="fa fa-share"
+style={{"color":"black","fontSize":30,"marginLeft":15}}> </i>
+</span>
+<p id="likes">12 likes</p>
+<div id="prof"><img src={name} id="lod"></img><p id="tex">{nameChange1}</p></div>
+<p id="text">{user.des}</p>

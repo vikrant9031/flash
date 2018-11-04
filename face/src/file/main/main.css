@@ -1,0 +1,21 @@
+#textloop{
+
+
+margin-left:550;
+position:absolute;
+top:250px;
+left: 450px;
+color:gold;
+}
+
+
+@media only screen and (max-width:700px){
+  #textloop{
+    top:150px;
+    left:55px;
+font-size: 20px;
+}
+#loop{
+  font-size: 20px;
+}
+}

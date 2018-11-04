@@ -1,0 +1,15 @@
+body{
+	font-family: sans-serif;
+		 background:linear-gradient(to right, rgb(0, 0, 0), rgb(110, 110, 110));
+}
+button{
+	cursor: pointer;
+}
+.particle{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	z-index: -1;
+}
